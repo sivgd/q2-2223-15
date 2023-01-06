@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f5b8fbe964cb1439037f3b632b6bc4, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  labels:
+  - text: Wake them up
+    nextScene: {fileID: 11400000, guid: 501170d3e946dff4daa686b5b86a8808, type: 2}
+  - text: Don't wake them up
+    nextScene: {fileID: 11400000, guid: a5effba943dcb3045b9bd2b7cc4174ce, type: 2}
+  - text: Play cool math games
+    nextScene: {fileID: 11400000, guid: 501170d3e946dff4daa686b5b86a8808, type: 2}
