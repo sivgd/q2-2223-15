@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f5b8fbe964cb1439037f3b632b6bc4, type: 3}
+  m_Name: Test(WakeUp)
+  m_EditorClassIdentifier: 
+  labels:
+  - text: Beginning
+    nextScene: {fileID: 11400000, guid: 501ab701e66207847ac902901a8bab10, type: 2}
+  - text: Clock Guy
+    nextScene: {fileID: 11400000, guid: e33b40a8fc2a1bb479e9b7333866ed22, type: 2}
+  - text: Computer Guy
+    nextScene: {fileID: 11400000, guid: 1bdcbe28b85e0e74bb02d841a0fa8f36, type: 2}

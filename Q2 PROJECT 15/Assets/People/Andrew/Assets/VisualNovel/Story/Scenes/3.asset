@@ -22,4 +22,4 @@ MonoBehaviour:
   - text: Look at it, that guy is stylish
     speaker: {fileID: 11400000, guid: fb57c690a41fd604d9a08d222bffc5a1, type: 2}
   background: {fileID: 21300000, guid: 200920c11d00e064a9e32f1ba19e9ae0, type: 3}
-  nextScene: {fileID: 11400000, guid: 385465d92f7c8de4b81fa53d56e866d3, type: 2}
+  nextScene: {fileID: 11400000, guid: 2587479e25d22de4e947c032c53b0308, type: 2}

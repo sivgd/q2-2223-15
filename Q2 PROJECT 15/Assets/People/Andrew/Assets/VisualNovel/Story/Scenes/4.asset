@@ -13,13 +13,7 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: 
   sentences:
-  - text: 
-    speaker: {fileID: 0}
-  - text: 
-    speaker: {fileID: 0}
-  - text: 
-    speaker: {fileID: 0}
-  - text: 
-    speaker: {fileID: 0}
+  - text: click
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
   background: {fileID: 21300000, guid: 84d7651290f55984986402c5cf8fed36, type: 3}
-  nextScene: {fileID: 11400000, guid: 385465d92f7c8de4b81fa53d56e866d3, type: 2}
+  nextScene: {fileID: 11400000, guid: c746176a9a2fe34478b16bc67e6fa9d7, type: 2}

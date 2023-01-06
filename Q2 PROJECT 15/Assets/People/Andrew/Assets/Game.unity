@@ -258,14 +258,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 169691968}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93d0df6f29928b54d9926fcea695fa5f, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a4b0d350780ac8419d7ee2e9d7ac8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isSwitched: 0
   background1: {fileID: 950005505}
   background2: {fileID: 713420932}
-  background3: {fileID: 1166555483}
-  background4: {fileID: 1951887950}
   animator: {fileID: 169691970}
 --- !u!1 &233108600
 GameObject:
