@@ -17,26 +17,26 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
   - text: I should not have had that much coffee last night.
     speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
-  - text: It's been two week since we we set out on this...excursion.
+  - text: <i>It's been two week since we we set out on this...excursion.</i>
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
-  - text: The quest to change to my appearance.
+  - text: <i>The quest to change to my appearance.</I>
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
-  - text: To make me normal...
+  - text: <i>To make me normal...</I>
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
-  - text: To be able to fit in to society.
+  - text: <i>To be able to fit in to society.</I>
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
-  - text: Also for no more hate on my posts!
+  - text: <i>Also for no more hate on my posts!</I>
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
-  - text: According to Mr. GPS we are nearly there.
+  - text: <i>According to Mr. GPS we are nearly there.</I>
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
-  - text: As long as the coordinates were inputted correctly.
+  - text: <i>As long as the coordinates were inputted correctly.</I>
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
-  - text: To think that I went this long without the knowing that my unfortunate
-      condition could be fixed...
+  - text: <i>To think that I went this long without the knowing that my unfortunate
+      condition could be fixed...</I>
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
-  - text: 'Truly devastating. Now all I need to get is the... the... '
+  - text: <i>Truly devastating. Now all I need to get is the... the... </I>
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
-  - text: Shoot, what was it again.
+  - text: <i>Shoot, what was it again.</I>
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
-  background: {fileID: 21300000, guid: e036ebc4b069c6342b2a87b335f085ab, type: 3}
+  background: {fileID: 21300000, guid: 5b26a75004d35c143b53c329582e5f0a, type: 3}
   nextScene: {fileID: 11400000, guid: e33b40a8fc2a1bb479e9b7333866ed22, type: 2}

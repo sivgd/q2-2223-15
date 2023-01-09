@@ -13,7 +13,6 @@ public class BackgroundController : MonoBehaviour
 
     public void SwitchImage(Sprite sprite)
     {
-        //For 1 -> 2
         if (!isSwitched)
         {
             background2.sprite = sprite;

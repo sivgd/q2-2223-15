@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88291c25ab3ac2446b8d1df37192bf06, type: 3}
+  m_Name: AWildFishAppeared(TellHim)
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Hey hey now, did I overhear someone conversing about botany without me?
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+  - text: <i>No, not you!</i>
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+  - text: Hi Fish.
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+  - text: Why do flowers like to stare at the sun?
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+  - text: "Flora do not \u2018look\u2019 at suns. Flora most of the time do not have
+      ocular capabilities, and those that do are often carnivorous and found on planets
+      farther away from their sun, as they have less of a need to photosynthesize."
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+  - text: Was that able to answer you're question?
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+  - text: What's an ock..you..leer.?
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+  - text: 'Ocular, noun, relating to the eyes and-or vision. '
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+  - text: 'Not related to octo-, the prefix meaning eight. '
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+  - text: 'Ohhhhh ok ok, so Octocular means eight eyes. '
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+  - text: yes. That's not exactly the word th-
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+  - text: So that's why flowers have eight eyes!
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+  - text: "Regular flowers don\u2019t have eyes. All that do are held under tight
+      government restrictions and strict regulations regarding their tradeRegular
+      flowers don\u2019t have eyes. All that do are held under tight government restrictions
+      and strict regulations regarding their trade."
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+  - text: I would know. That pesky government won't let me have one.
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+  - text: For...?
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+  - text: For some completely legal and ethical experiments, of course.
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+  - text: You're such a good person Fish! Letting those flowers see the universe!
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+  - text: I actually wanted to test thier sight in different light levels, but sure.
+      that works too.
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+  - text: "They could see the stars, see the planets\u2026 traveling with you like
+      little companions, it\u2019d be great! I hope my little guy here can do that.
+      That would be cool. "
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+  - text: The.. pot of dirt?
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+  - text: No! My buddy is in here, I thnk she's a...ioniom flowers.
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+  - text: You know that's never going to grow right?
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+  - text: You never know!
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+  background: {fileID: 0}
+  nextScene: {fileID: 0}

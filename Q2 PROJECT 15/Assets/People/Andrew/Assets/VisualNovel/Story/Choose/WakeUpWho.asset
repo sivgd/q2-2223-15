@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11f5b8fbe964cb1439037f3b632b6bc4, type: 3}
-  m_Name: 1
+  m_Name: WakeUpWho
   m_EditorClassIdentifier: 
   labels:
-  - text: Wake them up
+  - text: Wake up Trisha
     nextScene: {fileID: 11400000, guid: 501170d3e946dff4daa686b5b86a8808, type: 2}
-  - text: Don't wake them up
-    nextScene: {fileID: 11400000, guid: a5effba943dcb3045b9bd2b7cc4174ce, type: 2}
-  - text: Play cool math games
-    nextScene: {fileID: 11400000, guid: 501170d3e946dff4daa686b5b86a8808, type: 2}
+  - text: Wake up Jeremiah
+    nextScene: {fileID: 11400000, guid: e2bcab83ed05380479be8e2d4b790d95, type: 2}
+  - text: Wake up Fish
+    nextScene: {fileID: 11400000, guid: fa9202e9760b93346b6b85a4ea1b075c, type: 2}

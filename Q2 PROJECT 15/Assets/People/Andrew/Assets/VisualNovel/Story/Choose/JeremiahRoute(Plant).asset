@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11f5b8fbe964cb1439037f3b632b6bc4, type: 3}
-  m_Name: Test(WakeUp)
+  m_Name: JeremiahRoute(Plant)
   m_EditorClassIdentifier: 
   labels:
-  - text: Beginning
-    nextScene: {fileID: 11400000, guid: 501ab701e66207847ac902901a8bab10, type: 2}
-  - text: Clock Guy
-    nextScene: {fileID: 11400000, guid: e33b40a8fc2a1bb479e9b7333866ed22, type: 2}
-  - text: Computer Guy
-    nextScene: {fileID: 11400000, guid: 1bdcbe28b85e0e74bb02d841a0fa8f36, type: 2}
+  - text: Tell him that the plant needs sun to grow.
+    nextScene: {fileID: 11400000, guid: 84626a7dff7ef8144be1f440c14f4de4, type: 2}
+  - text: Have a soul.
+    nextScene: {fileID: 11400000, guid: 5157402985a1ac54fa15015d8cd0a544, type: 2}

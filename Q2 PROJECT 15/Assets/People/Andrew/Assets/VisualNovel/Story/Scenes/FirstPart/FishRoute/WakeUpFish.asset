@@ -10,10 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88291c25ab3ac2446b8d1df37192bf06, type: 3}
-  m_Name: 4
+  m_Name: WakeUpFish
   m_EditorClassIdentifier: 
-  sentences:
-  - text: click
-    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
-  background: {fileID: 21300000, guid: 84d7651290f55984986402c5cf8fed36, type: 3}
-  nextScene: {fileID: 11400000, guid: c746176a9a2fe34478b16bc67e6fa9d7, type: 2}
+  sentences: []
+  background: {fileID: 0}
+  nextScene: {fileID: 0}

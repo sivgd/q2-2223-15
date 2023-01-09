@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88291c25ab3ac2446b8d1df37192bf06, type: 3}
+  m_Name: NeedSunPlant
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Wait, so... this plant won't grow.
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+  - text: Nope.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+  - text: Crying
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+  - text: Oh jeez. Uhhhh...oh how about this! Weeeee....uhhhh...
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+  - text: We can stop at a planet after this to make up for the plant thing. Then
+      we can get a plant that could can grow with very like...very minimum...EV rays
+      and junk?
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+  - text: <i>I am now slightly regretting failing biology</i>
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+  - text: Most can't. But some are disigned to due their home planet's... ozone layers
+      and stuff?
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+  - text: Ohhhh.
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+  - text: Yeah. I'm extremely knowledgeable in this.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+  - text: Oh just like Fish?
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+  - text: I'm smart and all but Fish is way smarter. Don't try to compare me to them.
+      In fact, you're the only one who can know that I am as smart as I am.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+  - text: <i>Please someone help me.</i>
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+  background: {fileID: 21300000, guid: ef615e5dfa9513348aa51ddee5aa8fc5, type: 3}
+  nextScene: {fileID: 0}
