@@ -13,9 +13,5 @@ MonoBehaviour:
   m_Name: WakeUpWho
   m_EditorClassIdentifier: 
   labels:
-  - text: Wake up Trisha
-    nextScene: {fileID: 11400000, guid: 501170d3e946dff4daa686b5b86a8808, type: 2}
   - text: Wake up Jeremiah
     nextScene: {fileID: 11400000, guid: e2bcab83ed05380479be8e2d4b790d95, type: 2}
-  - text: Wake up Fish
-    nextScene: {fileID: 11400000, guid: fa9202e9760b93346b6b85a4ea1b075c, type: 2}
