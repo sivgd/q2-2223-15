@@ -1396,6 +1396,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2049686101}
+  - component: {fileID: 2049686102}
   m_Layer: 5
   m_Name: Jeremiah
   m_TagString: Untagged
@@ -1423,6 +1424,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &2049686102
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049686100}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2121592262 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3888912715329485483, guid: aed4778935852a648af29a28e8cf2a40, type: 3}
@@ -1461,7 +1474,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2945541087084704301, guid: aed4778935852a648af29a28e8cf2a40, type: 3}
       propertyPath: m_Alpha
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3888912715329485482, guid: aed4778935852a648af29a28e8cf2a40, type: 3}
       propertyPath: m_Pivot.x
