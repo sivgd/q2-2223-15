@@ -7,12 +7,16 @@ public class BottomBarController : MonoBehaviour
 {
     public TextMeshProUGUI barText;
     public TextMeshProUGUI personNameText;
+    public TextMeshProUGUI continueText;
 
     private int sentenceIndex = -1;
     public StoryScene currentScene;
     private State state = State.COMPLETED;
     private Animator animator;
     private bool isHidden = false;
+
+    public Dictionary<Speaker, SpriteController> sprites;
+    public GameObject spritesPrefabs;
 
     private enum State
     {
@@ -21,6 +25,7 @@ public class BottomBarController : MonoBehaviour
 
     public void Start()
     {
+        sprites = new Dictionary<Speaker, SpriteController>();
         animator = GetComponent<Animator>();
     }
 
@@ -85,5 +90,19 @@ public class BottomBarController : MonoBehaviour
                 break;
             }
         }
+    }
+
+    private void ActSpeakers()
+    {
+        List<StoryScene.Sentence.Action> actions = currentScene.sentence[sentenceIndex].action;
+        for(int i = 0; i < actions.Count; i++)
+        {
+            ActSpeakers(actions[i]);
+        }
+    }
+
+    private void ActSpeakers(StoryScene.Sentence.Action action)
+    {
+
     }
 }

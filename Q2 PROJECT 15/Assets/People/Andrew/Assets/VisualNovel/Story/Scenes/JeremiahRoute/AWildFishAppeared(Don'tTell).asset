@@ -15,57 +15,80 @@ MonoBehaviour:
   sentences:
   - text: Hey hey now, did I overhear someone conversing about botany without me?
     speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
   - text: <i>No, not you!</i>
     speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
   - text: Hi Fish.
     speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
   - text: Why do flowers like to stare at the sun?
     speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
   - text: "Flora do not \u2018look\u2019 at suns. Flora most of the time do not have
       ocular capabilities, and those that do are often carnivorous and found on planets
       farther away from their sun, as they have less of a need to photosynthesize."
     speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
   - text: Was that able to answer you're question?
     speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
   - text: What's an ock..you..leer.?
     speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
   - text: 'Ocular, noun, relating to the eyes and-or vision. '
     speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
   - text: 'Not related to octo-, the prefix meaning eight. '
     speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
   - text: 'Ohhhhh ok ok, so Octocular means eight eyes. '
     speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
   - text: yes. That's not exactly the word th-
     speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
   - text: So that's why flowers have eight eyes!
     speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
   - text: "Regular flowers don\u2019t have eyes. All that do are held under tight
       government restrictions and strict regulations regarding their tradeRegular
       flowers don\u2019t have eyes. All that do are held under tight government restrictions
       and strict regulations regarding their trade."
     speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
   - text: I would know. That pesky government won't let me have one.
     speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
   - text: For...?
     speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
   - text: For some completely legal and ethical experiments, of course.
     speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
   - text: You're such a good person Fish! Letting those flowers see the universe!
     speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
   - text: I actually wanted to test thier sight in different light levels, but sure.
       that works too.
     speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
   - text: "They could see the stars, see the planets\u2026 traveling with you like
       little companions, it\u2019d be great! I hope my little guy here can do that.
       That would be cool. "
     speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
   - text: The.. pot of dirt?
     speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
   - text: No! My buddy is in here, I thnk she's a...ioniom flowers.
     speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
   - text: You know that's never going to grow right?
     speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
   - text: Yes she will! I believe in her.
     speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
-  background: {fileID: 0}
+    actions: []
+  background: {fileID: 21300000, guid: 6813f5f93db8afa46ae4b5e27bcf000e, type: 3}
   nextScene: {fileID: 0}

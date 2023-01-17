@@ -15,16 +15,22 @@ MonoBehaviour:
   sentences:
   - text: Yep! It surely will, buddy.
     speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
   - text: ' '
     speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
   - text: I've always wondered why plants need to be next to a window.
     speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
   - text: That is a good question. I wonder why.
     speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
   - text: I think it's something to do with their eyes. Y'know, those little blubs
       in the middle of the flower. They must love to stare into the sky.
     speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
   - text: <i>Oh dear god. Someone please help me.</i>
     speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
-  background: {fileID: 0}
+    actions: []
+  background: {fileID: 21300000, guid: 6813f5f93db8afa46ae4b5e27bcf000e, type: 3}
   nextScene: {fileID: 0}
