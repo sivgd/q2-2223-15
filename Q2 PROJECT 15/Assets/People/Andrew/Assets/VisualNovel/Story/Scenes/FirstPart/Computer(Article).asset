@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Computer(Article)
   m_EditorClassIdentifier: 
   sentences:
-  - text: I should go check on the other! It's early enough.
-    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
-  background: {fileID: 21300000, guid: adf7743663e41dd418658a25f0ecdabc, type: 3}
+  - text: H
+    speaker: {fileID: 0}
+    actions: []
+  background: {fileID: 21300000, guid: 6813f5f93db8afa46ae4b5e27bcf000e, type: 3}
   nextScene: {fileID: 11400000, guid: 385465d92f7c8de4b81fa53d56e866d3, type: 2}

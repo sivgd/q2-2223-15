@@ -13,20 +13,22 @@ MonoBehaviour:
   m_Name: Beginning
   m_EditorClassIdentifier: 
   sentences:
-  - text: Man.
+  - text: Man. I should not have had that much coffee last night.
     speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
       spriteIndex: 0
       actionType: 1
-      coords: {x: 0, y: 0}
+      coords: {x: 750, y: 0}
       moveSpeed: 0
-  - text: I should not have had that much coffee last night.
-    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
-    actions: []
   - text: <i>It's been two week since we we set out on this...excursion.</i>
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
   - text: <i>The quest to change to my appearance.</I>
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
     actions: []
@@ -56,4 +58,4 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
     actions: []
   background: {fileID: 21300000, guid: 5b26a75004d35c143b53c329582e5f0a, type: 3}
-  nextScene: {fileID: 11400000, guid: e33b40a8fc2a1bb479e9b7333866ed22, type: 2}
+  nextScene: {fileID: 11400000, guid: 1bdcbe28b85e0e74bb02d841a0fa8f36, type: 2}
