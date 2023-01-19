@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88291c25ab3ac2446b8d1df37192bf06, type: 3}
+  m_Name: SideWithJeremiah
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I'm sure that she will grow eventually.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: Thank you.
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: I'm not so sure that will hap-
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
+  - text: Shhhhhh. Let him be happy.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: I'm a literal botanist student. I know that's not going to-
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
+  - text: 'What did I literally just say. Sh. '
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: What type of plant do you guys think Suzy will be?
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: "Isn\u2019t she a flower? You planted a bulb, right?"
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: "I think she\u2019ll be part of the Hypogravitas genus of flowering bramble. "
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
+  - text: "What\u2019s that mean?"
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: "She\u2019s not going to gr\u2013"
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
+  - text: Dude. Seriously.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: "\u2026were you about to say she\u2019s not going to grow?"
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: No, totally n-
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: Yes.
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
+  - text: Fish.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: "\u2026 awh."
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: 6813f5f93db8afa46ae4b5e27bcf000e, type: 3}
+  nextScene: {fileID: 11400000, guid: e1e738c24f08e6742822250a2c5ef3dd, type: 2}

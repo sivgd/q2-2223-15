@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88291c25ab3ac2446b8d1df37192bf06, type: 3}
+  m_Name: Gathering
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Oh good, everyone's here. I should probably check on everyone before we
+      land, I am supposed to be the captian..
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: Morning guys.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: Good mornin'!
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: Benevolent day even though it's relative.
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
+  - text: ...
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: <i>Ah yes. Exactly what I was execting.</i>
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: <i>Ah yes. Exactly what I was execting.</i>
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: "<i>Jeremiah is our strength. He moves everything and does the heavy lifting
+      for most of us. He\u2019s not\u2026 the brightest tool in the shed, but he\u2019s
+      sweet. Dumb, but good in his heart.</i> "
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: "<i>Fish doesn\u2019t particularly have any role, but they\u2019re here
+      for\u2026 I\u2019d say moral support, but their bedside manner is awful. Medical
+      expert and studying to be a doctor. Of plants, thankfully.</i> "
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: "<i>Trish is\u2026 sleeping on her feet currently, but she\u2019s the mechanic.
+      And a good one, at that. Peppy and cheerful, normally, but she takes this seriously,
+      when she\u2019s\u2026 not sleeping. </i>"
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: How're we doing? Are we... holding up fine?
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: Yes! All good over here.
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: My molecular structure is intact.
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
+  - text: ...and when was the last time you got sleep?
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: Two hours ago! I woke up early for my workout. I got a healthy 7 hours.
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: Sleep is a limitation for mere mortals that I am simply above.
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
+  - text: Ha, ha. Funny.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: I know.
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
+  - text: Now then, Heremiah, we were conversing, were we not?
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
+  - text: Yes! You're right. About Suzy.
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: It's dirt in a pot.
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
+  - text: She's doing her best.
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: ..what?
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: Jeremiah insists that the plant we found on Magnesia is cultivable. But
+      it's not.
+    speaker: {fileID: 11400000, guid: a40408430f7afb4499f2ca13c1adc027, type: 2}
+    actions: []
+  - text: There's nothing to disprove me.
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: 6813f5f93db8afa46ae4b5e27bcf000e, type: 3}
+  nextScene: {fileID: 11400000, guid: 385465d92f7c8de4b81fa53d56e866d3, type: 2}

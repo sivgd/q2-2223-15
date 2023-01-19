@@ -14,3 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Trisha
   textColor: {r: 0.8207547, g: 0.49167854, b: 0.49167854, a: 0}
+  sprites:
+  - {fileID: 21300000, guid: 0a43745610920fa4dba93c14b42992cd, type: 3}
+  - {fileID: 21300000, guid: 0574f04bafa877040a150b8249313566, type: 3}
+  - {fileID: 21300000, guid: 4e840b6e0a866b746b68fc5226148460, type: 3}
+  - {fileID: 21300000, guid: 916593536b9370c47ad2f4de840bbbff, type: 3}
+  - {fileID: 21300000, guid: 495065abc74cc304a92f57a882395dc4, type: 3}
+  - {fileID: 21300000, guid: 1adb7efc73b91e74689421e312c8f501, type: 3}
+  prefab: {fileID: 8567718030778765808, guid: b86b9028392d01c4cb33e6e46be6c8a1, type: 3}

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11f5b8fbe964cb1439037f3b632b6bc4, type: 3}
-  m_Name: JeremiahRoute(Plant)
+  m_Name: WhoToSideWith
   m_EditorClassIdentifier: 
   labels:
-  - text: Tell him that the plant needs sun to grow.
-    nextScene: {fileID: 11400000, guid: 84626a7dff7ef8144be1f440c14f4de4, type: 2}
-  - text: Have a soul.
-    nextScene: {fileID: 11400000, guid: 5157402985a1ac54fa15015d8cd0a544, type: 2}
+  - text: Agree with Jeremiah
+    nextScene: {fileID: 11400000, guid: e2bcab83ed05380479be8e2d4b790d95, type: 2}
+  - text: Agree with Fish
+    nextScene: {fileID: 11400000, guid: e2bcab83ed05380479be8e2d4b790d95, type: 2}
