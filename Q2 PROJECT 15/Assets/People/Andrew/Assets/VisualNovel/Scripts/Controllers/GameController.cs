@@ -28,17 +28,25 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (state == State.IDLE)
         {
-            if (state == State.IDLE && bottomBar.IsCompleted())
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
-                if (bottomBar.IsLastSentence())
+                if (bottomBar.IsCompleted())
                 {
-                    PlayScene((currentScene as StoryScene).nextScene);
+                    bottomBar.StopTyping();
+                    if (bottomBar.IsLastSentence())
+                    {
+                        PlayScene((currentScene as StoryScene).nextScene);
+                    }
+                    else
+                    {
+                        bottomBar.PlayNextSentence();
+                    }
                 }
                 else
                 {
-                    bottomBar.PlayNextSentence();
+                    bottomBar.SpeedUp();
                 }
             }
         }

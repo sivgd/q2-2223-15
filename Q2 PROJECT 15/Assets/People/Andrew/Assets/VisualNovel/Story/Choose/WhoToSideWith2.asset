@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11f5b8fbe964cb1439037f3b632b6bc4, type: 3}
-  m_Name: WhoToSideWith
+  m_Name: WhoToSideWith2
   m_EditorClassIdentifier: 
   labels:
-  - text: You right Jeremiah, I'm sure she'll grow eventually.
-    nextScene: {fileID: 11400000, guid: e2bcab83ed05380479be8e2d4b790d95, type: 2}
-  - text: Yeah but Fish does have point, dude.
-    nextScene: {fileID: 11400000, guid: fa9202e9760b93346b6b85a4ea1b075c, type: 2}
+  - text: Jeremiah I think you would make a great medic
+    nextScene: {fileID: 0}
+  - text: Maybe with a some more training, buddy
+    nextScene: {fileID: 0}

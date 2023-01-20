@@ -13,9 +13,6 @@ MonoBehaviour:
   m_Name: SideWithJeremiah
   m_EditorClassIdentifier: 
   sentences:
-  - text: I'm sure that she will grow eventually.
-    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
-    actions: []
   - text: Thank you.
     speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
     actions: []

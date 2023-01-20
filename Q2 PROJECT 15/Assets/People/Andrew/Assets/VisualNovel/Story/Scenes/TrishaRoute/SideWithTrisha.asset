@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88291c25ab3ac2446b8d1df37192bf06, type: 3}
+  m_Name: SideWithTrisha
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: You can get there one day with some work.
+    speaker: {fileID: 11400000, guid: fb57c690a41fd604d9a08d222bffc5a1, type: 2}
+    actions: []
+  - text: 'Well. With a lot of work. A doctorate takes 12 years to do. '
+    speaker: {fileID: 11400000, guid: fb57c690a41fd604d9a08d222bffc5a1, type: 2}
+    actions: []
+  - text: "Woah! And that\u2019s what Fish is doing?"
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: "I only got to Pre-Algebra before I stopped listening\u2026 "
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: "There\u2019s a lot to do with it. "
+    speaker: {fileID: 11400000, guid: fb57c690a41fd604d9a08d222bffc5a1, type: 2}
+    actions: []
+  - text: "I considered it for a while, but ultimately I decided I couldn\u2019t
+      work under the pressure, so I began working on engines instead. "
+    speaker: {fileID: 11400000, guid: fb57c690a41fd604d9a08d222bffc5a1, type: 2}
+    actions: []
+  - text: "Hm\u2026 yeah, that makes sense. "
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: This sure is some poy nyant stuff.
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: 'Poignant. '
+    speaker: {fileID: 0}
+    actions: []
+  - text: "That\u2019s what I said."
+    speaker: {fileID: 0}
+    actions: []
+  - text: ' '
+    speaker: {fileID: 11400000, guid: fb57c690a41fd604d9a08d222bffc5a1, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: 6813f5f93db8afa46ae4b5e27bcf000e, type: 3}
+  nextScene: {fileID: 11400000, guid: 2ad771014beadcd4d8c803fccde94902, type: 2}

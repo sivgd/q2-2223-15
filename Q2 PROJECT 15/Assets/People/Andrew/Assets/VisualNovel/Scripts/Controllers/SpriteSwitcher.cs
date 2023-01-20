@@ -30,7 +30,7 @@ public class SpriteSwitcher : MonoBehaviour
         }
         isSwitched = !isSwitched;
     }
-   
+
     public void SetImage(Sprite sprite)
     {
         if (!isSwitched)
@@ -51,7 +51,7 @@ public class SpriteSwitcher : MonoBehaviour
         }
         else
         {
-             return image2.sprite;
+            return image2.sprite;
         }
     }
 }

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88291c25ab3ac2446b8d1df37192bf06, type: 3}
+  m_Name: SideWithHimAgain
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I think you could.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: ...
+    speaker: {fileID: 11400000, guid: fb57c690a41fd604d9a08d222bffc5a1, type: 2}
+    actions: []
+  - text: Really!?
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: Really. You have pretty good bedside manner, and that's always important
+      for people practicing medicine.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: .....normally.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: 'Normally? '
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: Bedside manner is being nice and forgiving to your patients.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: Ohhhh.
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: "But Fish\u2026 you\u2019d think they\u2019d be nice to their own patience."
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: Oh holy Saturn.
+    speaker: {fileID: 11400000, guid: fb57c690a41fd604d9a08d222bffc5a1, type: 2}
+    actions: []
+  - text: 'No, like. as in patients. The people doctors take care of.  '
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  - text: 'Oh! I see how that could be important. '
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: "But then why doesn\u2019t Fish have any?"
+    speaker: {fileID: 11400000, guid: 53d4fe6afb4cb5646bf07f66cc059c5e, type: 2}
+    actions: []
+  - text: Exactly.
+    speaker: {fileID: 11400000, guid: 3310f97f9da3cfe46bb439bb16d802ee, type: 2}
+    actions: []
+  background: {fileID: 21300000, guid: 6813f5f93db8afa46ae4b5e27bcf000e, type: 3}
+  nextScene: {fileID: 11400000, guid: 2ad771014beadcd4d8c803fccde94902, type: 2}

@@ -983,7 +983,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1223813730
 RectTransform:
@@ -1020,7 +1020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94531ce68c4b3fd4db4b7e04ea3b7d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: 1bdcbe28b85e0e74bb02d841a0fa8f36, type: 2}
+  currentScene: {fileID: 11400000, guid: 501ab701e66207847ac902901a8bab10, type: 2}
   bottomBar: {fileID: 1523670492}
   backgroundController: {fileID: 169691971}
   chooseController: {fileID: 783631995}
