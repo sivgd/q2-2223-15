@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3995896483112606876}
   - component: {fileID: 3995896483112606878}
   - component: {fileID: 3995896483112606877}
-  - component: {fileID: 3995896483112606879}
+  - component: {fileID: 3794367994542936386}
   m_Layer: 5
   m_Name: ChooseLabel
   m_TagString: Untagged
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &3995896483112606879
+--- !u!114 &3794367994542936386
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,9 +144,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3995896483112606851}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a802b1706cb52446b1b0ea34e4d9749, type: 3}
+  m_Script: {fileID: 11500000, guid: ec98889dc39b3c647ad5cf4b78e32fff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColor: {r: 1, g: 1, b: 1, a: 1}
-  hoverColor: {r: 1, g: 1, b: 1, a: 0.74509805}
-  scene: {fileID: 0}
+  defaultColor: {r: 0, g: 0, b: 0, a: 0}
+  hoverColor: {r: 1, g: 1, b: 1, a: 0}

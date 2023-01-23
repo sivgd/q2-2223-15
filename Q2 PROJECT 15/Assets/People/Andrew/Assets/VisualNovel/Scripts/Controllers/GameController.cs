@@ -11,6 +11,8 @@ public class GameController : MonoBehaviour
 
     private State state = State.IDLE;
 
+    private List<StoryScene> history = new List<StoryScene>();
+
     private enum State
     {
         IDLE, ANIMATE, CHOOSE
@@ -21,6 +23,7 @@ public class GameController : MonoBehaviour
         if (currentScene is StoryScene)
         {
             StoryScene storyScene = currentScene as StoryScene;
+            history.Add(storyScene);
             bottomBar.PlayScene(storyScene);
             backgroundController.SetImage(storyScene.background);
         }
@@ -42,6 +45,8 @@ public class GameController : MonoBehaviour
                     else
                     {
                         bottomBar.PlayNextSentence();
+                        PlayAudio((currentScene as StoryScene)
+                            .sentences[bottomBar.GetSentenceIndex()]);
                     }
                 }
                 else
@@ -49,29 +54,61 @@ public class GameController : MonoBehaviour
                     bottomBar.SpeedUp();
                 }
             }
+            if (Input.GetMouseButtonDown(1))
+            {
+                if (bottomBar.IsFirstSentence())
+                {
+                    if (history.Count > 1)
+                    {
+                        bottomBar.StopTyping();
+                        bottomBar.HideSprites();
+                        history.RemoveAt(history.Count - 1);
+                        StoryScene scene = history[history.Count - 1];
+                        history.RemoveAt(history.Count - 1);
+                        PlayScene(scene, scene.sentences.Count - 2, false);
+                    }
+                }
+                else
+                {
+                    bottomBar.GoBack();
+                }
+            }
         }
     }
 
-    public void PlayScene(GameScene scene)
+    public void PlayScene(GameScene scene, int sentenceIndex = -1, bool isAnimated = true)
     {
-        StartCoroutine(SwitchScene(scene));
+        StartCoroutine(SwitchScene(scene, sentenceIndex, isAnimated));
     }
 
-    private IEnumerator SwitchScene(GameScene scene)
+    private IEnumerator SwitchScene(GameScene scene, int sentenceIndex = -1, bool isAnimated = true)
     {
         state = State.ANIMATE;
         currentScene = scene;
-        bottomBar.Hide();
-        yield return new WaitForSeconds(1f);
+        if (isAnimated)
+        {
+            bottomBar.Hide();
+            yield return new WaitForSeconds(1f);
+        }
         if (scene is StoryScene)
         {
             StoryScene storyScene = scene as StoryScene;
-            backgroundController.SwitchImage(storyScene.background);
-            yield return new WaitForSeconds(1f);
-            bottomBar.ClearText();
-            bottomBar.Show();
-            yield return new WaitForSeconds(1f);
-            bottomBar.PlayScene(storyScene);
+            history.Add(storyScene);
+            PlayAudio(storyScene.sentences[sentenceIndex + 1]);
+            if (isAnimated)
+            {
+                backgroundController.SwitchImage(storyScene.background);
+                yield return new WaitForSeconds(1f);
+                bottomBar.ClearText();
+                bottomBar.Show();
+                yield return new WaitForSeconds(1f);
+            }
+            else
+            {
+                backgroundController.SetImage(storyScene.background);
+                bottomBar.ClearText();
+            }
+            bottomBar.PlayScene(storyScene, sentenceIndex, isAnimated);
             state = State.IDLE;
         }
         else if (scene is ChooseScene)
