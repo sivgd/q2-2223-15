@@ -21,6 +21,11 @@ MonoBehaviour:
       actionType: 1
       coords: {x: 750, y: 0}
       moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: fb57c690a41fd604d9a08d222bffc5a1, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: 750, y: 0}
+      moveSpeed: 0
   - text: <i>It's been two week since we we set out on this...excursion.</i>
     speaker: {fileID: 11400000, guid: df3df6b1a7938474e8f80f0e9003f6e6, type: 2}
     actions:

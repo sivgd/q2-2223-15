@@ -45,8 +45,6 @@ public class GameController : MonoBehaviour
                     else
                     {
                         bottomBar.PlayNextSentence();
-                        PlayAudio((currentScene as StoryScene)
-                            .sentences[bottomBar.GetSentenceIndex()]);
                     }
                 }
                 else
@@ -94,7 +92,6 @@ public class GameController : MonoBehaviour
         {
             StoryScene storyScene = scene as StoryScene;
             history.Add(storyScene);
-            PlayAudio(storyScene.sentences[sentenceIndex + 1]);
             if (isAnimated)
             {
                 backgroundController.SwitchImage(storyScene.background);

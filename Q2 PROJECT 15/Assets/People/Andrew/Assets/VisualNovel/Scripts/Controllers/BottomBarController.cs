@@ -146,36 +146,44 @@ public class BottomBarController : MonoBehaviour
         List<StoryScene.Sentence.Action> actions = currentScene.sentences[sentenceIndex].actions;
         for (int i = 0; i < actions.Count; i++)
         {
-            ActSpeaker(actions[i], isAnimated);
+            ActSpeaker(actions[i]);
         }
     }
 
-    private void ActSpeaker(StoryScene.Sentence.Action action, bool isAnimated = true)
+    private void ActSpeaker(StoryScene.Sentence.Action action)
     {
-        SpriteController controller;
-        if (!sprites.ContainsKey(action.speaker))
-        {
-            controller = Instantiate(action.speaker.prefab.gameObject, spritesPrefab.transform)
-                .GetComponent<SpriteController>();
-            sprites.Add(action.speaker, controller);
-        }
-        else
-        {
-            controller = sprites[action.speaker];
-        }
+        SpriteController controller = null;
         switch (action.actionType)
         {
             case StoryScene.Sentence.Action.Type.APPEAR:
+                if (!sprites.ContainsKey(action.speaker))
+                {
+                    controller = Instantiate(action.speaker.prefab.gameObject, spritesPrefab.transform)
+                        .GetComponent<SpriteController>();
+                    sprites.Add(action.speaker, controller);
+                }
+                else
+                {
+                    controller = sprites[action.speaker];
+                }
                 controller.Setup(action.speaker.sprites[action.spriteIndex]);
-                controller.Show(action.coords, isAnimated);
+                controller.Show(action.coords);
                 return;
             case StoryScene.Sentence.Action.Type.MOVE:
-                controller.Move(action.coords, action.moveSpeed, isAnimated);
+                if (sprites.ContainsKey(action.speaker))
+                {
+                    controller = sprites[action.speaker];
+                    controller.Move(action.coords, action.moveSpeed);
+                }
                 break;
             case StoryScene.Sentence.Action.Type.DISAPPEAR:
-                controller.Hide(isAnimated);
+                if (sprites.ContainsKey(action.speaker))
+                {
+                    controller = sprites[action.speaker];
+                    controller.Hide();
+                }
                 break;
         }
-        controller.SwitchSprite(action.speaker.sprites[action.spriteIndex], isAnimated);
+        controller.SwitchSprite(action.speaker.sprites[action.spriteIndex]);
     }
 }
