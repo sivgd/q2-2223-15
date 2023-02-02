@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/People/Andrew/Assets/Game.unity
     guid: 4d687521acb239f41b612cc9d1724789
+  - enabled: 1
+    path: Assets/People/Emma/CreditsSceneActual.unity
+    guid: 4cf9678637ca0fa4b8957cbf60161670
+  - enabled: 1
+    path: Assets/People/Emma/ANI.unity
+    guid: 5a1bc0481c9be1247b6098850eefc021
+  - enabled: 1
+    path: Assets/People/Emma/VGD.unity
+    guid: 5fc15d17486f78c4a9a1717cf798cc91
   m_configObjects: {}
