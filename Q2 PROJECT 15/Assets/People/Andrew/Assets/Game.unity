@@ -1778,6 +1778,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3888912715329485483, guid: aed4778935852a648af29a28e8cf2a40, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888912715329485483, guid: aed4778935852a648af29a28e8cf2a40, type: 3}
       propertyPath: m_Name
       value: Ted
       objectReference: {fileID: 0}
@@ -1807,7 +1811,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPanel: {fileID: 1223813730}
-  characters: []
+  characters:
+  - characterName: 
+    root: {fileID: 0}
+    renderers:
+      bodyRenderer: {fileID: 0}
+      expressionRenderer: {fileID: 0}
+      allBodyRenderers: []
+      allExpressionRenderers: []
 --- !u!1001 &8567718030250670202
 PrefabInstance:
   m_ObjectHideFlags: 0
