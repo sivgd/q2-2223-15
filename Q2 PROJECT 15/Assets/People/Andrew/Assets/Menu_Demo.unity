@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d36cb6b7645d1e4aab70c2137786b99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameScene: credits
+  gameScene: CreditsSceneActual
 --- !u!1 &913293966
 GameObject:
   m_ObjectHideFlags: 0
